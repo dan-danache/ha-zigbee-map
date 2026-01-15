@@ -1,0 +1,33 @@
+{
+    "panel": {
+        "map": "Mapa Zigbee",
+        "log": "Registro Zigbee"
+    },
+    "config": {
+        "entry_title": "Painéis Zigbee",
+        "step": {
+            "user": {
+                "title": "Configuração da barra lateral",
+                "description": "Selecione quais painéis Zigbee adicionar na barra lateral:",
+                "data": {
+                    "enable_map": "Mostrar mapa Zigbee",
+                    "enable_log": "Mostrar registro Zigbee",
+                    "websocket_url": "URL WebSocket do Zigbee2MQTT (detecção automática se vazio)"
+                }
+            }
+        }
+    },
+    "options": {
+        "step": {
+            "init": {
+                "title": "Configuração da barra lateral",
+                "description": "Alterar quais painéis Zigbee são mostrados na barra lateral:",
+                "data": {
+                    "enable_map": "Mostrar mapa Zigbee",
+                    "enable_log": "Mostrar registro Zigbee",
+                    "websocket_url": "URL WebSocket do Zigbee2MQTT (detecção automática se vazio)"
+                }
+            }
+        }
+    }
+}
