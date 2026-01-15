@@ -75,9 +75,9 @@ issues within that device's local mesh.
 
 ## Installation
 
-Install using HACS:
+Install using **Home Assistant Community Store**:
 
-1. Click the button below to install the Zigbee Map extension:
+1. Click the button below to install the **Zigbee Map** extension:
 
     [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=dan-danache&repository=ha-zigbee-map&category=integration)
 
