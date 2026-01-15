@@ -1,8 +1,8 @@
 # Zigbee Map
 
-[![Latest release](https://badgers.space/codeberg/release/dan-danache/ha-zigbee-map)](https://codeberg.org/dan-danache/ha-zigbee-map/releases)
+[![Latest Release](https://badgers.space/codeberg/release/dan-danache/ha-zigbee-map)](https://codeberg.org/dan-danache/ha-zigbee-map/releases) [![Open issues](https://badgers.space/codeberg/open-issues/dan-danache/ha-zigbee-map)](https://codeberg.org/dan-danache/ha-zigbee-map/issues) [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store](https://badgers.space/badge/HACS/add%20repository/blue)](https://my.home-assistant.io/redirect/hacs_repository/?owner=dan-danache&repository=ha-zigbee-map&category=integration) [![Donate](https://badgers.space/badge/donate/buy%20me%20a%20coffee/blue)](https://www.buymeacoffee.com/dandanache)
 
-**Zigbee Map** is a custom panel for Home Assistant that provides a dynamic, real-time visualization of your Zigbee mesh network by actively querying connected devices.
+**Zigbee Map** is a custom panel for Home Assistant that provides a real-time visualization of your Zigbee mesh network.
 
 ## Screenshots
 
@@ -75,7 +75,19 @@ issues within that device's local mesh.
 
 Install using HACS:
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=dan-danache&repository=ha-zigbee-map&category=integration)
+1. Click the button below to install the Zigbee Map extension:
+
+    [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=dan-danache&repository=ha-zigbee-map&category=integration)
+
+1. After HA is restarted, go to **Settings** → **Devices & services**
+
+1. Click **Add integration** (bottom right corner)
+
+1. Search for **Zigbee Map** and select it
+
+1. Click **Submit**, then **Finish**
+
+1. The panel(s) should now appear in your sidebar
 
 ---
 
