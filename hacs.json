@@ -1,0 +1,8 @@
+{
+    "name": "Zigbee Map",
+    "content_in_root": true,
+    "zip_release": true,
+    "filename": "hacs.zip",
+    "hide_default_branch": true,
+    "homeassistant": "2025.10.0"
+}
