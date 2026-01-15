@@ -4,7 +4,7 @@
     "version": "2.5.0",
     "documentation": "https://codeberg.org/dan-danache/ha-zigbee-map/src/branch/master/README.md",
     "issue_tracker": "https://codeberg.org/dan-danache/ha-zigbee-map/issues",
-    "codeowners": ["@dandanache"],
+    "codeowners": ["@dan-danache"],
     "dependencies": ["panel_custom", "http"],
     "after_dependencies": ["frontend"],
     "requirements": [],
