@@ -4,6 +4,8 @@
 
 **Zigbee Map** is a custom panel for Home Assistant that provides a real-time visualization of your Zigbee mesh network.
 
+Source code is available on [dan-danache/ha-zigbee-map](https://codeberg.org/dan-danache/ha-zigbee-map) @ Codeberg.
+
 ## Screenshots
 
 ![Zigbee graph](img/screenshot-1.png 'Zigbee Map')
