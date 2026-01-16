@@ -2,7 +2,6 @@
 
 [![Latest release](https://img.shields.io/gitea/v/release/dan-danache/ha-zigbee-map?gitea_url=https%3A%2F%2Fcodeberg.org&color=0c7ebe)](https://codeberg.org/dan-danache/ha-zigbee-map/releases)
 [![Open issues](https://img.shields.io/gitea/issues/open/dan-danache/ha-zigbee-map?gitea_url=https%3A%2F%2Fcodeberg.org&color=0c7ebe)](https://codeberg.org/dan-danache/ha-zigbee-map/issues)
-[![Integration installs](https://img.shields.io/badge/dynamic/json?label=integration%20installs&cacheSeconds=15600&url=https://analytics.home-assistant.io/custom_integrations.json&query=$.zigbee_map.total&color=0c7ebe)](https://analytics.home-assistant.io/)
 [![Home Assistant Community Forum](https://img.shields.io/badge/community-forum-0c7ebe)](https://community.home-assistant.io/t/zigbee-map-visualize-your-mesh-network/921489)
 [![Buy me a coffee](https://img.shields.io/badge/donate-buy_me_a_coffee-0c7ebe)](https://www.buymeacoffee.com/dandanache)
 
