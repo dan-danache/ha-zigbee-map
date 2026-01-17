@@ -1,0 +1,14 @@
+{
+    "domain": "zigbee_map",
+    "name": "Zigbee Map",
+    "after_dependencies": ["frontend"],
+    "codeowners": ["@dan-danache"],
+    "config_flow": true,
+    "dependencies": ["panel_custom", "http"],
+    "documentation": "https://codeberg.org/dan-danache/ha-zigbee-map/src/branch/master/README.md",
+    "iot_class": "local_push",
+    "issue_tracker": "https://codeberg.org/dan-danache/ha-zigbee-map/issues",
+    "requirements": [],
+    "single_config_entry": true,
+    "version": "2.6.1"
+}
