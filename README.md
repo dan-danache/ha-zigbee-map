@@ -19,24 +19,12 @@ Source code is available on Codeberg @ [dan-danache/ha-zigbee-map](https://codeb
 
 ## Requirements
 
-Zigbee Map works with Zigbee2MQTT installations that expose a WebSocket API.
+**Zigbee Map** is compatible with:
 
-You can use it in two ways:
-
-1. **Automatic mode**: Zigbee2MQTT installed as a Home Assistant Add-on
-   The integration automatically detects the WebSocket URL through the Supervisor API.
-
-1. **Manual mode**: Zigbee2MQTT running outside Home Assistant
-   You can manually enter the WebSocket URL in the Zigbee Map configuration options.
+- The Zigbee2MQTT Add-on, Zigbee2MQTT Proxy Add-on, or any Zigbee2MQTT instance running outside Home Assistant (Docker, VM, etc.)
+- Zigbee Home Automation (ZHA) integration
 
 ## Features
-
-Zigbee Map connects to your Zigbee2MQTT instance through its WebSocket interface.
-
-When running as an add-on, the WebSocket URL is auto-detected.
-When running externally, you can manually specify the WebSocket URL in the integration options.
-
-It deploys an external extension into Zigbee2MQTT to enable direct communication with Zigbee devices.
 
 The app retrieves the full list of Zigbee devices, including the coordinator, repeaters and end-devices.
 
@@ -62,27 +50,19 @@ As data is collected, a visual graph is built:
 
 The mapping process completes once all repeaters have been queried and the processing queue is empty.
 
-## Interpreting LQI Values
-
-LQI (Link Quality Index) values are often unreliable for troubleshooting Zigbee communication issues. Although they are presented as positive
-numbers (ranging from 0 to 255), with higher values generally indicating better link quality, the lack of standardization across Zigbee stacks
-and device manufacturers makes them difficult to interpret consistently.
-
-Different vendors calculate LQI in different ways, which may not be relevant to the overall network performance. For example, Silicon Labs
-and Texas Instruments use different scaling methods, and environmental interference can skew the results, making them less meaningful for
-assessing overall network health.
-
-That said, while comparing LQI values across different devices is generally not useful, you can still use the values reported by the same
-device to evaluate relative signal quality toward its neighboring devices. This approach can help identify weak links or potential routing
-issues within that device's local mesh.
-
 ## Installation
 
-Install using **Home Assistant Community Store**:
+Install using **Home Assistant Community Store** (HACS):
 
-1. Click the button below to install the **Zigbee Map** extension:
+1. Click the button below to install the **Zigbee Map** extension
 
     [![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=dan-danache&repository=ha-zigbee-map&category=integration)
+
+    Or add HACS custom repository:
+    - Repository: `https://github.com/dan-danache/ha-zigbee-map`
+    - Type: Integration
+
+1. On the **Zigbee Map** project details inside **HACS**, click **Download** (bottom right corner) and follow the install instructions
 
 1. After HA is restarted, go to **Settings** → **Devices & services**
 
