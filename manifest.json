@@ -10,5 +10,5 @@
     "issue_tracker": "https://codeberg.org/dan-danache/ha-zigbee-map/issues",
     "requirements": [],
     "single_config_entry": true,
-    "version": "2.6.1"
+    "version": "2.8.0"
 }
