@@ -3,7 +3,7 @@ name: Validate with hassfest
 on:
   workflow_dispatch:
   release:
-    types: [prereleased, published, edited]
+    types: [created, edited, prereleased, published]
 
 jobs:
   validate:
