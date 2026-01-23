@@ -1,0 +1,31 @@
+name: Validate with hassfest
+
+on:
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download hacs.zip
+        run: |
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            URL="https://github.com/${{ github.repository }}/releases/latest/download/hacs.zip"
+          else
+            TAG="${{ github.event.release.tag_name }}"
+            URL="https://github.com/${{ github.repository }}/releases/download/${TAG}/hacs.zip"
+          fi
+
+          echo "Downloading: $URL"
+          curl -L "$URL" -o hacs.zip
+          ls -la
+
+          echo "Unzipping..."
+          unzip -o hacs.zip -d .
+          ls -la
+
+      - name: Run hassfest
+        uses: home-assistant/actions/hassfest@master
