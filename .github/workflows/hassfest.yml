@@ -6,7 +6,7 @@ on:
     types: [created, edited, prereleased, published]
 
 jobs:
-  validate:
+  validate-hassfest:
     runs-on: ubuntu-latest
 
     steps:
