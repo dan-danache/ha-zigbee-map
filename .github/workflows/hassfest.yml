@@ -21,8 +21,6 @@ jobs:
 
           echo "Downloading: $URL"
           curl -L "$URL" -o hacs.zip
-
-          echo "Unzipping..."
           mkdir -p custom_components/zigbee_map
           unzip -o hacs.zip -d custom_components/zigbee_map/
           cat custom_components/zigbee_map/manifest.json
