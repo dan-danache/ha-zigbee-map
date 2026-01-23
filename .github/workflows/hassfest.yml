@@ -25,7 +25,6 @@ jobs:
           echo "Unzipping..."
           mkdir -p custom_components/zigbee_map
           unzip -o hacs.zip -d custom_components/zigbee_map/
-          ls -la
-          ls -la custom_components/zigbee_map/
+          cat custom_components/zigbee_map/manifest.json
 
       - uses: home-assistant/actions/hassfest@master
