@@ -28,5 +28,4 @@ jobs:
           ls -la
           ls -la custom_components/zigbee_map/
 
-      - name: Run hassfest
-        uses: home-assistant/actions/hassfest@master
+      - uses: home-assistant/actions/hassfest@master
