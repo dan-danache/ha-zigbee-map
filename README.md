@@ -5,7 +5,7 @@
 [![Home Assistant Community Forum](https://img.shields.io/badge/community-forum-0c7ebe)](https://community.home-assistant.io/t/zigbee-map-visualize-your-mesh-network/921489)
 [![Buy me a coffee](https://img.shields.io/badge/donate-buy_me_a_coffee-0c7ebe)](https://www.buymeacoffee.com/dandanache)
 
-**Zigbee Map** is a custom panel for Home Assistant that provides a real-time visualization of your Zigbee mesh network.
+**Zigbee Map** is a custom panel for Home Assistant that provides a real-time visualization of your Zigbee2MQTT or ZHA mesh network.
 
 Source code is available on Codeberg @ [dan-danache/ha-zigbee-map](https://codeberg.org/dan-danache/ha-zigbee-map).
 
