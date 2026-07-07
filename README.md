@@ -5,17 +5,29 @@
 [![Home Assistant Community Forum](https://img.shields.io/badge/community-forum-0c7ebe)](https://community.home-assistant.io/t/zigbee-map-visualize-your-mesh-network/921489)
 [![Buy me a coffee](https://img.shields.io/badge/donate-buy_me_a_coffee-0c7ebe)](https://www.buymeacoffee.com/dandanache)
 
-**Zigbee Map** is a custom panel for Home Assistant that provides a real-time visualization of your Zigbee2MQTT or ZHA mesh network.
+**Zigbee Map** is a custom panel for Home Assistant that provides a real-time visualization of your Zigbee network.
+
+There's also a **Zigbee Log** panel that lets you inspect live Zigbee traffic.
 
 Source code is available on Codeberg @ [dan-danache/ha-zigbee-map](https://codeberg.org/dan-danache/ha-zigbee-map).
 
 ## Screenshots
 
-![Zigbee graph](img/screenshot-1.png 'Zigbee Map')
+![Zigbee graph](img/screenshot-01.png 'Zigbee Map')
 
-![Devices list](img/screenshot-2.png 'Zigbee Map')
+![Focused node](img/screenshot-02.png 'Zigbee Map')
 
-![Zigbee log](img/screenshot-3.png 'Zigbee Log')
+![Devices list](img/screenshot-03.png 'Zigbee Map')
+
+![Map options](img/screenshot-04.png 'Zigbee Log')
+
+![Diagnostics list](img/screenshot-05.png 'Zigbee Map')
+
+![Diagnostic details](img/screenshot-06.png 'Zigbee Map')
+
+![Zigbee Log](img/screenshot-10.png 'Zigbee Log')
+
+![Log details](img/screenshot-11.png 'Zigbee Log')
 
 ## Requirements
 
@@ -24,7 +36,7 @@ Source code is available on Codeberg @ [dan-danache/ha-zigbee-map](https://codeb
 - The Zigbee2MQTT Add-on, Zigbee2MQTT Proxy Add-on, or any Zigbee2MQTT instance running outside Home Assistant (Docker, VM, etc.)
 - Zigbee Home Automation (ZHA) integration
 
-## Features
+## What it does
 
 The app retrieves the full list of Zigbee devices, including the coordinator, repeaters and end-devices.
 
